@@ -8,4 +8,4 @@
 import Foundation
 
 
-lengthOfLongestSubstring("abcabcbb")
+print(lengthOfLongestSubstring("abcabcbb"))

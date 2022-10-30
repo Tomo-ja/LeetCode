@@ -15,5 +15,18 @@ import Foundation
 
 func lengthOfLongestSubstring(_ s: String) -> Int {
 	
-	return 0
+	var dict = [Character: Int]()
+	var leftIdx = 0
+	var maxLength = 0
+	
+	for (rightIdx, letter) in s.enumerated() {
+		if dict[letter] == nil ||  dict[letter]! < leftIdx {
+			maxLength = max(maxLength, rightIdx - leftIdx + 1)
+		} else {
+			leftIdx = dict[letter]! + 1
+		}
+		dict[letter] = rightIdx
+	}
+
+	return maxLength
 }

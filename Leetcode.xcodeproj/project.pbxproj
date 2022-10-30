@@ -11,6 +11,7 @@
 		E527F2A1290DD4EB004DFB63 /* add2Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A0290DD4EB004DFB63 /* add2Number.swift */; };
 		E527F2A3290DE007004DFB63 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A2290DE007004DFB63 /* ListNode.swift */; };
 		E527F2A5290DE564004DFB63 /* longestSubStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A4290DE564004DFB63 /* longestSubStrings.swift */; };
+		E527F2A7290EEFFD004DFB63 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A6290EEFFD004DFB63 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		E527F2A0290DD4EB004DFB63 /* add2Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add2Number.swift; sourceTree = "<group>"; };
 		E527F2A2290DE007004DFB63 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		E527F2A4290DE564004DFB63 /* longestSubStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestSubStrings.swift; sourceTree = "<group>"; };
+		E527F2A6290EEFFD004DFB63 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		E527F27F290CF585004DFB63 = {
 			isa = PBXGroup;
 			children = (
+				E527F2A6290EEFFD004DFB63 /* String+.swift */,
 				E527F2A2290DE007004DFB63 /* ListNode.swift */,
 				E527F28A290CF585004DFB63 /* Leetcode */,
 				E527F289290CF585004DFB63 /* Products */,
@@ -139,6 +142,7 @@
 			files = (
 				E527F28C290CF585004DFB63 /* main.swift in Sources */,
 				E527F2A1290DD4EB004DFB63 /* add2Number.swift in Sources */,
+				E527F2A7290EEFFD004DFB63 /* String+.swift in Sources */,
 				E527F2A5290DE564004DFB63 /* longestSubStrings.swift in Sources */,
 				E527F2A3290DE007004DFB63 /* ListNode.swift in Sources */,
 			);
