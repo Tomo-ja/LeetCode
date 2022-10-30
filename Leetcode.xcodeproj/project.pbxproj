@@ -12,6 +12,7 @@
 		E527F2A3290DE007004DFB63 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A2290DE007004DFB63 /* ListNode.swift */; };
 		E527F2A5290DE564004DFB63 /* longestSubStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A4290DE564004DFB63 /* longestSubStrings.swift */; };
 		E527F2A7290EEFFD004DFB63 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A6290EEFFD004DFB63 /* String+.swift */; };
+		E527F2A9290F2C74004DFB63 /* longestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527F2A8290F2C74004DFB63 /* longestPalindromicSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		E527F2A2290DE007004DFB63 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		E527F2A4290DE564004DFB63 /* longestSubStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestSubStrings.swift; sourceTree = "<group>"; };
 		E527F2A6290EEFFD004DFB63 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		E527F2A8290F2C74004DFB63 /* longestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindromicSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				E527F2A0290DD4EB004DFB63 /* add2Number.swift */,
 				E527F2A4290DE564004DFB63 /* longestSubStrings.swift */,
+				E527F2A8290F2C74004DFB63 /* longestPalindromicSubstring.swift */,
 			);
 			path = topInterviewMedium;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				E527F28C290CF585004DFB63 /* main.swift in Sources */,
 				E527F2A1290DD4EB004DFB63 /* add2Number.swift in Sources */,
 				E527F2A7290EEFFD004DFB63 /* String+.swift in Sources */,
+				E527F2A9290F2C74004DFB63 /* longestPalindromicSubstring.swift in Sources */,
 				E527F2A5290DE564004DFB63 /* longestSubStrings.swift in Sources */,
 				E527F2A3290DE007004DFB63 /* ListNode.swift in Sources */,
 			);

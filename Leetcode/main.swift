@@ -8,4 +8,5 @@
 import Foundation
 
 
-print(lengthOfLongestSubstring("abcabcbb"))
+//print(lengthOfLongestSubstring("abcabcbb"))
+print(longestPalindrome("cbbd"))

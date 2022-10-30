@@ -25,6 +25,12 @@ extension String {
 	func substring(toIndex: Int) -> String {
 		return self[0 ..< max(0, toIndex)]
 	}
+	
+	func substring(startAt: Int, length: Int) -> String {
+		let start = index(startIndex, offsetBy: startAt)
+		let end = index(start, offsetBy: length)
+		return String(self[start..<end])
+	}
 
 	subscript (r: Range<Int>) -> String {
 		let range = Range(uncheckedBounds: (lower: max(0, min(length, r.lowerBound)),

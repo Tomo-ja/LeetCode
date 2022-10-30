@@ -27,6 +27,6 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
 		}
 		dict[letter] = rightIdx
 	}
-
+	
 	return maxLength
 }
